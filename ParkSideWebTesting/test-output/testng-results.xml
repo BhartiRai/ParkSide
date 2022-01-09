@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-08T18:25:10 PST" name="Default suite" finished-at="2022-01-08T18:25:37 PST" duration-ms="27753">
+    <groups>
+      <group name="all">
+        <method signature="WikiTest.testFunctioningHyperLinks()[pri:0, instance:Wiki.WikiTest@73700b80]" name="testFunctioningHyperLinks" class="Wiki.WikiTest"/>
+        <method signature="WikiTest.testHeadingsOfHyperLinks()[pri:0, instance:Wiki.WikiTest@73700b80]" name="testHeadingsOfHyperLinks" class="Wiki.WikiTest"/>
+        <method signature="WikiTest.testPersonifiedConceptsNikePopUpAndFamilyTreeValidation()[pri:0, instance:Wiki.WikiTest@73700b80]" name="testPersonifiedConceptsNikePopUpAndFamilyTreeValidation" class="Wiki.WikiTest"/>
+      </group> <!-- all -->
+      <group name="functionalTest">
+        <method signature="WikiTest.testHeadingsOfHyperLinks()[pri:0, instance:Wiki.WikiTest@73700b80]" name="testHeadingsOfHyperLinks" class="Wiki.WikiTest"/>
+        <method signature="WikiTest.testPersonifiedConceptsNikePopUpAndFamilyTreeValidation()[pri:0, instance:Wiki.WikiTest@73700b80]" name="testPersonifiedConceptsNikePopUpAndFamilyTreeValidation" class="Wiki.WikiTest"/>
+      </group> <!-- functionalTest -->
+      <group name="smokeTest">
+        <method signature="WikiTest.testFunctioningHyperLinks()[pri:0, instance:Wiki.WikiTest@73700b80]" name="testFunctioningHyperLinks" class="Wiki.WikiTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2022-01-08T18:25:10 PST" name="Default test" finished-at="2022-01-08T18:25:37 PST" duration-ms="27753">
+      <class name="Wiki.WikiTest">
+        <test-method signature="testFunctioningHyperLinks()[pri:0, instance:Wiki.WikiTest@73700b80]" started-at="2022-01-08T18:25:10 PST" name="testFunctioningHyperLinks" finished-at="2022-01-08T18:25:22 PST" duration-ms="12128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFunctioningHyperLinks -->
+        <test-method signature="testHeadingsOfHyperLinks()[pri:0, instance:Wiki.WikiTest@73700b80]" started-at="2022-01-08T18:25:22 PST" name="testHeadingsOfHyperLinks" finished-at="2022-01-08T18:25:27 PST" duration-ms="5219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeadingsOfHyperLinks -->
+        <test-method signature="testPersonifiedConceptsNikePopUpAndFamilyTreeValidation()[pri:0, instance:Wiki.WikiTest@73700b80]" started-at="2022-01-08T18:25:27 PST" name="testPersonifiedConceptsNikePopUpAndFamilyTreeValidation" finished-at="2022-01-08T18:25:37 PST" duration-ms="10329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersonifiedConceptsNikePopUpAndFamilyTreeValidation -->
+      </class> <!-- Wiki.WikiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
